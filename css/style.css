@@ -19,11 +19,13 @@ body{
 }
 h1{
     padding-top: 20px;
+    
 }
+
 li{
     list-style: none;
-    line-height: 20px;
-    font-size: 17px;
+    line-height: 30px;
+    font-size: 20px;
 }
 ul{
     margin-top: 20px;
