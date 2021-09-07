@@ -43,10 +43,23 @@ var studenti=[
 studenti.push(studente);
 console.log(studenti);
 
+
+ //chiedo a utente dati studente
+ var nome= prompt("Inserisci il tuo nome");
+ var cognome= prompt("Inserisci il tuo cognome");
+ var eta= parseInt(prompt("Inserisci la tua età"));
+
+ var utente={
+    "nome":nome,
+    "cognome":cognome,
+    "età":eta
+ }
+
+ //stampo in lista i nuovi dati
+ studenti.push(utente);
+
 //ciclo per stampare nome e cognome studente
 var lista=document.getElementById("studenti")
  for(var i=0; i<studenti.length;i++){
     lista.innerHTML+=`<li>Nome studente : ${studenti[i]["nome"]} ${studenti[i]["cognome"]}</li>`
  }
-
- //
