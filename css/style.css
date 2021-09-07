@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../mitchell-luo-oLw9R4GxGug-unsplash.jpg);
+    font-family: 'Urbanist', sans-serif;
+}
+#lista-studenti{
+    background-color: rgb(140, 190, 190);
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    
+}
+h1{
+    padding-top: 20px;
+}
+li{
+    list-style: none;
+    line-height: 20px;
+    font-size: 17px;
+}
+ul{
+    margin-top: 20px;
+}
