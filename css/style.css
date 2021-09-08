@@ -11,22 +11,22 @@ body{
 #lista-studenti{
     background-color: rgb(140, 190, 190);
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
     width: 600px;
     height: 600px;
     text-align: center;
     
 }
 h1{
-    padding-top: 20px;
+    padding-top: 30px;
     
 }
 
 li{
     list-style: none;
-    line-height: 30px;
+    line-height: 35px;
     font-size: 20px;
 }
 ul{
-    margin-top: 20px;
+    margin-top: 50px;
 }
